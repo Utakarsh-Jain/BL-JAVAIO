@@ -25,19 +25,6 @@ This repository follows the **BridgeLabz Git Branching and Workflow Standard**, 
 
 ---
 
-## 📋 Use Cases Covered
-
-| Use Case | Description | Feature Branch | Status |
-| :--- | :--- | :--- | :--- |
-| **UC 1** | File Operations: Check file existence, delete file, create directory, create empty file, list files & directories with extension filter | `feature/uc1-file-operations` | ⏳ Pending |
-| **UC 2** | Employee Payroll Service: Read and write employee payroll data to/from console and local files | `feature/uc2-payroll-service` | ⏳ Pending |
-| **UC 3** | File Watch Service: Monitor directory changes (create, modify, delete events) using Java NIO WatchService | `feature/uc3-watch-service` | ⏳ Pending |
-| **UC 4** | Employee Payroll File I/O: Write Employee Payroll data to a file, print entries, and count entries using Java Streams | `feature/uc4-file-io-operations` | ⏳ Pending |
-| **UC 5** | File Analysis & Counting: Count lines, words, and characters in files using Java Streams | `feature/uc5-file-analysis` | ⏳ Pending |
-| **UC 6** | CSV / JSON File I/O Handling: Reading and writing structured records using standard formats | `feature/uc6-csv-json-io` | ⏳ Pending |
-
----
-
 ## 🛠️ Development & Workflow Rules
 
 1. **Feature Branch Creation**:
@@ -64,14 +51,3 @@ This repository follows the **BridgeLabz Git Branching and Workflow Standard**, 
 
 ---
 
-## 📝 Daily Progress Log
-
-### Day 01 — Setup & Initialization
-- **What I have done:**
-  - Initialized repository with standard branching strategy (`main`, `develop`, initial feature branches).
-  - Configured `main` branch with comprehensive project documentation and use case mapping.
-  - Setup clean Maven/Java project skeleton in `develop`.
-- **What I will do:**
-  - Begin implementation of UC 1 in `feature/uc1-file-operations`.
-- **Issues faced:**
-  - None. Clean setup established.
